@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function Calculator</title>
+    </head>
+    <body>
+        <h1>THE CALCULATOR APP</h1>
+    </body>
+    <script>
+        let b=34;
+        function halfNumber(n){
+            return n/2;
+        }
+        console.log("half of " + b  + " is " + (halfNumber(b)))
+        function squareNumber(n){
+            return n**2;
+        }
+        console.log("The result of squaring the number 14  is  " + (squareNumber(14)))
+        let r=12
+        function areaOfCircle(r){
+            let x=Math.PI.toFixed(2);
+            return x*r**2;
+        }
+        console.log(areaOfCircle(12))
+        function percentOf(x,y){
+        return (x/y)*100 + "%"
+        }
+        console.log(percentOf(2,5))
+        function Esther(n){
+            let x=halfNumber(n);
+            let y=squareNumber(x);
+        let z=areaOfCircle(y);
+            let k1=percentOf(z,y);
+            return k1;
+        
+        
+        
+        }
+        console.log(Esther(6));
+    </script>
+</html>
